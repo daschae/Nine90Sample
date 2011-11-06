@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1649EB2C146714E2006BD269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1649EB2B146714E2006BD269 /* UIKit.framework */; };
+		1649EB2E146714E2006BD269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1649EB2D146714E2006BD269 /* Foundation.framework */; };
+		1649EB30146714E2006BD269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1649EB2F146714E2006BD269 /* CoreGraphics.framework */; };
+		1649EB36146714E2006BD269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1649EB34146714E2006BD269 /* InfoPlist.strings */; };
+		1649EB38146714E2006BD269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649EB37146714E2006BD269 /* main.m */; };
+		1649EB3C146714E2006BD269 /* N90AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649EB3B146714E2006BD269 /* N90AppDelegate.m */; };
+		1649EB3F146714E2006BD269 /* N90ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649EB3E146714E2006BD269 /* N90ViewController.m */; };
+		1649EB42146714E2006BD269 /* N90ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1649EB40146714E2006BD269 /* N90ViewController.xib */; };
+		1649EB581467220A006BD269 /* libNine90.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1649EB571467220A006BD269 /* libNine90.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1649EB27146714E2006BD269 /* Nine90Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nine90Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1649EB2B146714E2006BD269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1649EB2D146714E2006BD269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1649EB2F146714E2006BD269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1649EB33146714E2006BD269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1649EB35146714E2006BD269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1649EB37146714E2006BD269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1649EB39146714E2006BD269 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		1649EB3A146714E2006BD269 /* N90AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N90AppDelegate.h; sourceTree = "<group>"; };
+		1649EB3B146714E2006BD269 /* N90AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N90AppDelegate.m; sourceTree = "<group>"; };
+		1649EB3D146714E2006BD269 /* N90ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N90ViewController.h; sourceTree = "<group>"; };
+		1649EB3E146714E2006BD269 /* N90ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N90ViewController.m; sourceTree = "<group>"; };
+		1649EB41146714E2006BD269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/N90ViewController.xib; sourceTree = "<group>"; };
+		1649EB571467220A006BD269 /* libNine90.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNine90.a; path = "../Nine90/build/Release-iphoneos/libNine90.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1649EB24146714E2006BD269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1649EB581467220A006BD269 /* libNine90.a in Frameworks */,
+				1649EB2C146714E2006BD269 /* UIKit.framework in Frameworks */,
+				1649EB2E146714E2006BD269 /* Foundation.framework in Frameworks */,
+				1649EB30146714E2006BD269 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1649EB1C146714E2006BD269 = {
+			isa = PBXGroup;
+			children = (
+				1649EB31146714E2006BD269 /* Nine90Sample */,
+				1649EB2A146714E2006BD269 /* Frameworks */,
+				1649EB28146714E2006BD269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1649EB28146714E2006BD269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1649EB27146714E2006BD269 /* Nine90Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1649EB2A146714E2006BD269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1649EB571467220A006BD269 /* libNine90.a */,
+				1649EB2B146714E2006BD269 /* UIKit.framework */,
+				1649EB2D146714E2006BD269 /* Foundation.framework */,
+				1649EB2F146714E2006BD269 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1649EB31146714E2006BD269 /* Nine90Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1649EB3A146714E2006BD269 /* N90AppDelegate.h */,
+				1649EB3B146714E2006BD269 /* N90AppDelegate.m */,
+				1649EB3D146714E2006BD269 /* N90ViewController.h */,
+				1649EB3E146714E2006BD269 /* N90ViewController.m */,
+				1649EB40146714E2006BD269 /* N90ViewController.xib */,
+				1649EB32146714E2006BD269 /* Supporting Files */,
+			);
+			path = Nine90Sample;
+			sourceTree = "<group>";
+		};
+		1649EB32146714E2006BD269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1649EB33146714E2006BD269 /* Info.plist */,
+				1649EB34146714E2006BD269 /* InfoPlist.strings */,
+				1649EB37146714E2006BD269 /* main.m */,
+				1649EB39146714E2006BD269 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1649EB26146714E2006BD269 /* Nine90Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1649EB45146714E2006BD269 /* Build configuration list for PBXNativeTarget "Nine90Sample" */;
+			buildPhases = (
+				1649EB23146714E2006BD269 /* Sources */,
+				1649EB24146714E2006BD269 /* Frameworks */,
+				1649EB25146714E2006BD269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nine90Sample;
+			productName = Nine90Sample;
+			productReference = 1649EB27146714E2006BD269 /* Nine90Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1649EB1E146714E2006BD269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "David Schaefgen";
+			};
+			buildConfigurationList = 1649EB21146714E2006BD269 /* Build configuration list for PBXProject "Nine90Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1649EB1C146714E2006BD269;
+			productRefGroup = 1649EB28146714E2006BD269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1649EB26146714E2006BD269 /* Nine90Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1649EB25146714E2006BD269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1649EB36146714E2006BD269 /* InfoPlist.strings in Resources */,
+				1649EB42146714E2006BD269 /* N90ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1649EB23146714E2006BD269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1649EB38146714E2006BD269 /* main.m in Sources */,
+				1649EB3C146714E2006BD269 /* N90AppDelegate.m in Sources */,
+				1649EB3F146714E2006BD269 /* N90ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1649EB34146714E2006BD269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1649EB35146714E2006BD269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1649EB40146714E2006BD269 /* N90ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1649EB41146714E2006BD269 /* en */,
+			);
+			name = N90ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1649EB43146714E2006BD269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1649EB44146714E2006BD269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1649EB46146714E2006BD269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nine90Sample/Prefix.pch;
+				INFOPLIST_FILE = Nine90Sample/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1649EB47146714E2006BD269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nine90Sample/Prefix.pch;
+				INFOPLIST_FILE = Nine90Sample/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1649EB21146714E2006BD269 /* Build configuration list for PBXProject "Nine90Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1649EB43146714E2006BD269 /* Debug */,
+				1649EB44146714E2006BD269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1649EB45146714E2006BD269 /* Build configuration list for PBXNativeTarget "Nine90Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1649EB46146714E2006BD269 /* Debug */,
+				1649EB47146714E2006BD269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1649EB1E146714E2006BD269 /* Project object */;
+}
